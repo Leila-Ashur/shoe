@@ -8,8 +8,8 @@
     background-position: center; 
     
 }
-.shoes{
-  /* max-width: 10%; */
+.shu{
+  
 }
 
 
@@ -136,7 +136,7 @@ button{
     margin: 3rem;
 }
 .font{
-    font-size: 100px;
+    font-size: 30px;
 }
  .one{
    
@@ -293,38 +293,65 @@ six{
   .color{
     color: red;
   }
+  .navigation{
+    display: flex;
+    border: 100%;
+
+  }
+  .navigation ul li{
+    list-style-type: none;
+    display: inline;
+  }
+  .Login{
+    width: 50%;
+  }
+  .signup{
+    width: 50%;
+  }
+  .telling{
+    display: flex;
+    gap: 20px;
+  }
+  .footer{
+    display: flex;
+    gap: 40px;
+    background-color: darkred;
+
+  }
+  .footer ul li{
+    list-style-type: none;
+    
+  }
+  .dispaly{
+    display: flex;
+    width: 100%;
+  }
+  .dispaly ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 1rem;
+  }
+  .en{
+    width: 50%
+    
+  }
+  .fur{
+    width: 50%;
+  }
+  .font4{
+    text-align: center;
+  }
+  .tola{
+    background-color: white;
+    border-radius: 30px;
+  }
+  body{
+    background-color: azure;
+  }
+
+
   @media screen and (min-width:400px)and(max-width:1000px){
-    .shoe1{
-        max-width:300px ;
-        max-height: 300px;
-        display: flex;
-        
-    }
-    .nav2{
-        display: flex;
-        font-size: x-small;
-        width: 1%;
-    }.firstone{
-        font-size: x-small;
-        padding: 0%;
-    }
-    body{
-        max-width: 100%;
-        max-height: 100%;
-    }
-    .nav2{
-        width: 1%;
-        
-    }
-    .firstone{
-        width: 10%;
-    }
-    .onee{
-        width:10% ;
-    }
-    .twoo{
-        width: 10%;
-    }
+    
   }
 
   .gen{
@@ -333,9 +360,22 @@ six{
     grid-template-columns: repeat(2,1fr);
   }
 
-  @media only screen and(max-width:900px){
-    .gen{
-        grid-template-columns: repeat(1,1fr);
-    } 
+ 
     
-   }
+   Login{
+    width: 50%;
+  }
+  .signup{
+    width: 50%;
+  }
+  .red{
+    color: white;
+    background-color: red;
+    border-radius: 20%;
+    border-color: red;
+  }
+  .reds{
+    color: white;
+    background-color: red;
+    border-radius: 100%;
+  }
