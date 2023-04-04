@@ -57,7 +57,11 @@
     background-color: white;
 }
 .three{
-background-color: white;
+ 
+  border-radius: 20px;
+  
+ 
+
 }
 .img8{
     background-color: white;
@@ -81,6 +85,10 @@ display: inline;
 .collection4{
     display: flex;
     gap: 20px;
+}
+.kevine{
+  display: grid;
+  grid-template-columns: auto auto;
 }
 .black{
     display: flex;
@@ -134,6 +142,7 @@ button{
 }
 .footer1{
     margin: 3rem;
+    display: flex;
 }
 .font{
     font-size: 30px;
@@ -151,18 +160,25 @@ button{
   
 }
 .two{
-    background-image: linear-gradient(green,lightpink,blue);
-    height:5cm ;
-    border: radius 20px;
+  background-image: linear-gradient(lightpink,blue);
+  height: 5cm;
+  border-radius: 20px;
+  height: 200px;
+
 }
 .laptop{
     background-image: linear-gradient(red,green blue)
 
 }
  .three{
+   
     position: relative;
-    width: 70%;
+    width: 60%;
     height: 60%;
+    background-image: linear-gradient(lightpink,blue);
+    height: 5cm;
+    border-radius: 20px;
+    height: 200px;
  }
     
     
@@ -250,6 +266,8 @@ six{
     background-color:whitesmoke;
   }
   .image{
+    width: 500px;
+    background-color: blue;
     
   }
   .nav2 ul li{
@@ -340,6 +358,11 @@ six{
   }
   .font4{
     text-align: center;
+    background-image: url(/image/bg_720.png);
+    background-size: cover;
+   width: 100%;
+   height: 100vh;
+   background-position: center; 
   }
   .tola{
     background-color: white;
@@ -379,3 +402,16 @@ six{
     background-color: red;
     border-radius: 100%;
   }
+  .con{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 40%;
+  }
+  /* .dispaly{
+    background-image: url(/image/bg_720.png);
+  
+    background-size: cover;
+   width: 100%;
+   height: 100vh;
+   background-position: center; 
+  } */
